@@ -1,0 +1,11 @@
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/cgpa_lib.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc_qt.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/edit_cache.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/rebuild_cache.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/cgpa_lib_autogen_timestamp_deps.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/cgpa_lib_autogen.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc_autogen_timestamp_deps.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc_autogen.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc_qt_autogen_timestamp_deps.dir
+/Users/joshliu/project/PracticeProjects/build/CMakeFiles/calc_qt_autogen.dir
