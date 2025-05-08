@@ -1,0 +1,4 @@
+/Users/joshliu/project/PracticeProjects/MindMap/build/CMakeFiles/mindmap.dir
+/Users/joshliu/project/PracticeProjects/MindMap/build/CMakeFiles/test_node.dir
+/Users/joshliu/project/PracticeProjects/MindMap/build/CMakeFiles/edit_cache.dir
+/Users/joshliu/project/PracticeProjects/MindMap/build/CMakeFiles/rebuild_cache.dir
