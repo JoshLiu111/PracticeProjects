@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/mindmap.dir/src/MindMap.cpp.o CMakeFiles/mindmap.dir/src/Node.cpp.o CMakeFiles/mindmap.dir/src/main.cpp.o -o mindmap
