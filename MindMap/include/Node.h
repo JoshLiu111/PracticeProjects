@@ -15,8 +15,11 @@ public:
 
     int getId() const;
     const std::string& getContent() const;
+    Node* getParent() const;
+    Node* getChild(int index) const;
     void setContent(const std::string& newContent);
     bool isCollapsed() const;
+    int getChildCount() const;
 
 private:
     int id_;

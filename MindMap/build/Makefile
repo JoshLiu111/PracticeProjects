@@ -149,6 +149,46 @@ test_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/build
 .PHONY : test_node/fast
 
+#=============================================================================
+# Target rules for targets named test_mindmap
+
+# Build rule for target.
+test_mindmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_mindmap
+.PHONY : test_mindmap
+
+# fast build rule for target.
+test_mindmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/build
+.PHONY : test_mindmap/fast
+
+src/MindMap.o: src/MindMap.cpp.o
+.PHONY : src/MindMap.o
+
+# target to build an object file
+src/MindMap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/MindMap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/MindMap.cpp.o
+.PHONY : src/MindMap.cpp.o
+
+src/MindMap.i: src/MindMap.cpp.i
+.PHONY : src/MindMap.i
+
+# target to preprocess a source file
+src/MindMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/MindMap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/MindMap.cpp.i
+.PHONY : src/MindMap.cpp.i
+
+src/MindMap.s: src/MindMap.cpp.s
+.PHONY : src/MindMap.s
+
+# target to generate assembly for a file
+src/MindMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/MindMap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/MindMap.cpp.s
+.PHONY : src/MindMap.cpp.s
+
 src/Node.o: src/Node.cpp.o
 .PHONY : src/Node.o
 
@@ -156,6 +196,7 @@ src/Node.o: src/Node.cpp.o
 src/Node.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/Node.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/Node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/Node.cpp.o
 .PHONY : src/Node.cpp.o
 
 src/Node.i: src/Node.cpp.i
@@ -165,6 +206,7 @@ src/Node.i: src/Node.cpp.i
 src/Node.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/Node.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/Node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/Node.cpp.i
 .PHONY : src/Node.cpp.i
 
 src/Node.s: src/Node.cpp.s
@@ -174,6 +216,7 @@ src/Node.s: src/Node.cpp.s
 src/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mindmap.dir/build.make CMakeFiles/mindmap.dir/src/Node.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/src/Node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/src/Node.cpp.s
 .PHONY : src/Node.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -206,6 +249,7 @@ test/catch_amalgamated.o: test/catch_amalgamated.cpp.o
 # target to build an object file
 test/catch_amalgamated.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/catch_amalgamated.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/catch_amalgamated.cpp.o
 .PHONY : test/catch_amalgamated.cpp.o
 
 test/catch_amalgamated.i: test/catch_amalgamated.cpp.i
@@ -214,6 +258,7 @@ test/catch_amalgamated.i: test/catch_amalgamated.cpp.i
 # target to preprocess a source file
 test/catch_amalgamated.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/catch_amalgamated.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/catch_amalgamated.cpp.i
 .PHONY : test/catch_amalgamated.cpp.i
 
 test/catch_amalgamated.s: test/catch_amalgamated.cpp.s
@@ -222,7 +267,32 @@ test/catch_amalgamated.s: test/catch_amalgamated.cpp.s
 # target to generate assembly for a file
 test/catch_amalgamated.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_node.dir/build.make CMakeFiles/test_node.dir/test/catch_amalgamated.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/catch_amalgamated.cpp.s
 .PHONY : test/catch_amalgamated.cpp.s
+
+test/test_mindmap.o: test/test_mindmap.cpp.o
+.PHONY : test/test_mindmap.o
+
+# target to build an object file
+test/test_mindmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/test_mindmap.cpp.o
+.PHONY : test/test_mindmap.cpp.o
+
+test/test_mindmap.i: test/test_mindmap.cpp.i
+.PHONY : test/test_mindmap.i
+
+# target to preprocess a source file
+test/test_mindmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/test_mindmap.cpp.i
+.PHONY : test/test_mindmap.cpp.i
+
+test/test_mindmap.s: test/test_mindmap.cpp.s
+.PHONY : test/test_mindmap.s
+
+# target to generate assembly for a file
+test/test_mindmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mindmap.dir/build.make CMakeFiles/test_mindmap.dir/test/test_mindmap.cpp.s
+.PHONY : test/test_mindmap.cpp.s
 
 test/test_node.o: test/test_node.cpp.o
 .PHONY : test/test_node.o
@@ -258,7 +328,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mindmap"
+	@echo "... test_mindmap"
 	@echo "... test_node"
+	@echo "... src/MindMap.o"
+	@echo "... src/MindMap.i"
+	@echo "... src/MindMap.s"
 	@echo "... src/Node.o"
 	@echo "... src/Node.i"
 	@echo "... src/Node.s"
@@ -268,6 +342,9 @@ help:
 	@echo "... test/catch_amalgamated.o"
 	@echo "... test/catch_amalgamated.i"
 	@echo "... test/catch_amalgamated.s"
+	@echo "... test/test_mindmap.o"
+	@echo "... test/test_mindmap.i"
+	@echo "... test/test_mindmap.s"
 	@echo "... test/test_node.o"
 	@echo "... test/test_node.i"
 	@echo "... test/test_node.s"

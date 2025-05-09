@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/mindmap.dir/src/MindMap.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/MindMap.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/MindMap.cpp",
+  "output": "CMakeFiles/mindmap.dir/src/MindMap.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/mindmap.dir/src/Node.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "output": "CMakeFiles/mindmap.dir/src/Node.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/mindmap.dir/src/main.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/main.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/main.cpp",
+  "output": "CMakeFiles/mindmap.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_node.dir/test/test_node.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/test/test_node.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/test/test_node.cpp",
+  "output": "CMakeFiles/test_node.dir/test/test_node.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_node.dir/test/catch_amalgamated.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/test/catch_amalgamated.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/test/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_node.dir/test/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_node.dir/src/Node.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "output": "CMakeFiles/test_node.dir/src/Node.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_mindmap.dir/test/test_mindmap.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/test/test_mindmap.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/test/test_mindmap.cpp",
+  "output": "CMakeFiles/test_mindmap.dir/test/test_mindmap.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_mindmap.dir/test/catch_amalgamated.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/test/catch_amalgamated.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/test/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_mindmap.dir/test/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_mindmap.dir/src/Node.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp",
+  "output": "CMakeFiles/test_mindmap.dir/src/Node.cpp.o"
+},
+{
+  "directory": "/Users/joshliu/project/PracticeProjects/MindMap/build",
+  "command": "/usr/bin/c++  -I/Users/joshliu/project/PracticeProjects/MindMap/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/test_mindmap.dir/src/MindMap.cpp.o -c /Users/joshliu/project/PracticeProjects/MindMap/src/MindMap.cpp",
+  "file": "/Users/joshliu/project/PracticeProjects/MindMap/src/MindMap.cpp",
+  "output": "CMakeFiles/test_mindmap.dir/src/MindMap.cpp.o"
+}
+]

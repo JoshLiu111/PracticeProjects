@@ -28,7 +28,7 @@ void Node::toggleCollapse() {
 
 void Node::display(int indent) const {
     std::cout << std::string(indent, ' ') << "- " << content_;
-    if (collapsed_) std::cout << "(collapsed)";// add logic later
+    if (collapsed_) std::cout << " (collapsed)";// add logic later
     std::cout << std::endl;
 
     if (collapsed_) return;
@@ -40,6 +40,20 @@ void Node::display(int indent) const {
 
 int Node::getId() const {
     return id_;
+}
+Node* Node::getParent() const {
+    return parent_;
+}
+
+Node* Node::getChild(int index) const {
+    if (index >=0 && index < children_.size()) {
+        return children_[index];
+    }
+    return nullptr;
+}
+
+int Node::getChildCount() const {
+    return children_.size();
 }
 
 const std::string& Node::getContent() const {

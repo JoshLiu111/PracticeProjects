@@ -20,3 +20,11 @@ add_executable(test_node
     src/Node.cpp
 )
 target_include_directories(test_node PRIVATE include)
+
+add_executable(test_mindmap
+    test/test_mindmap.cpp
+    test/catch_amalgamated.cpp
+    src/Node.cpp
+    src/MindMap.cpp
+)
+target_include_directories(test_mindmap PRIVATE include)

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/joshliu/project/PracticeProjects/MindMap/src/MindMap.cpp" "CMakeFiles/mindmap.dir/src/MindMap.cpp.o" "gcc" "CMakeFiles/mindmap.dir/src/MindMap.cpp.o.d"
   "/Users/joshliu/project/PracticeProjects/MindMap/src/Node.cpp" "CMakeFiles/mindmap.dir/src/Node.cpp.o" "gcc" "CMakeFiles/mindmap.dir/src/Node.cpp.o.d"
   "/Users/joshliu/project/PracticeProjects/MindMap/src/main.cpp" "CMakeFiles/mindmap.dir/src/main.cpp.o" "gcc" "CMakeFiles/mindmap.dir/src/main.cpp.o.d"
   )
