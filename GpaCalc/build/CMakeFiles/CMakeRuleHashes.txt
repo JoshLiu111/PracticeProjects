@@ -1,9 +1,0 @@
-# Hashes of file build rules.
-afe723b75ab9fc876e2c81a466443f30 CMakeFiles/calc_autogen
-afe723b75ab9fc876e2c81a466443f30 CMakeFiles/calc_qt_autogen
-afe723b75ab9fc876e2c81a466443f30 CMakeFiles/cgpa_lib_autogen
-2a425a29bcfdab28a5d769e8f3560f31 calc_autogen/timestamp
-5714f93e268dfaacc13003daa78bf68e calc_qt_autogen/timestamp
-bf64cf0663bb23a04314c592d668000b cgpa_lib_autogen/timestamp
-b56105aec9e4b7889bf797ecd0b44082 ui_CourseDialog.h
-de5511195e53bbef3a02d15a0de27029 ui_MainWindow.h

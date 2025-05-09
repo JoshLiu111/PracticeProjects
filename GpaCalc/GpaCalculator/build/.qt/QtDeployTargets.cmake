@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_cgpa_lib_FILE /Users/joshliu/project/PracticeProjects/GpaCalculator/build/libcgpa_lib.a)
-set(__QT_DEPLOY_TARGET_cgpa_lib_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_calc_FILE /Users/joshliu/project/PracticeProjects/GpaCalculator/build/calc)
-set(__QT_DEPLOY_TARGET_calc_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_calc_qt_FILE /Users/joshliu/project/PracticeProjects/GpaCalculator/build/calc_qt)
-set(__QT_DEPLOY_TARGET_calc_qt_TYPE EXECUTABLE)
